@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Birthday Cake 🎂</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet" />
+  <style>
+    #mainTitle {
+      font-size: 32px;
+      font-family: 'Pixelify Sans', sans-serif;
+      margin-bottom: 8px;
+    }
+
+    #subTitle {
+      font-size: 18px;
+      font-family: 'Pixelify Sans', sans-serif;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div id="birthdayText"></div>
+    <div class="cake-container">
+      <div class="cake" id="cake"></div>
+    </div>
+
+    <section class="post-blow" id="postBlow" aria-label="Birthday memories and card">
+      <div class="photo-strips" aria-label="Photobooth memories">
+        <div class="photo-strip photo-strip-left">
+          <div class="photo-frame scene-one">
+            <img src="images/Uddfntitled-1 copy.png"
+              alt="Birthday memory" />
+            <span>kuchupuchu</span>
+          </div>
+          <div class="photo-frame scene-two">
+            <img src="images/Untitledvv-1.png"
+              alt="Birthday memory" />
+            <span>THAT SMILEEE</span>
+          </div>
+          <div class="photo-frame scene-three">
+            <img src="images/Udfgntitled-1.png"
+              alt="Birthday memory" />
+          </div>
+          <div class="strip-caption">smile a lil</div>
+        </div>
+        <div class="photo-strip photo-strip-right">
+          <div class="photo-frame scene-four">
+            <img src="images/Unfggtitled-1.png"
+              alt="Birthday memory" />
+            <span>bachpan se hi whimsy</span>
+          </div>
+          <div class="photo-frame scene-five">
+            <img src="images/Untitlcdred-1.png"
+              alt="Birthday memory" />
+            <span>big smilessss</span>
+          </div>
+          <div class="photo-frame scene-six">
+            <img src="images/Untitlcved-1.png"
+              alt="Birthday memory" />
+            <span>masha allah omg </span>
+          </div>
+          <div class="strip-caption">a small photobooth</div>
+        </div>
+      </div>
+
+      <div class="birthday-card" aria-label="Birthday wishes">
+        <div class="card-cover">aapke liye :) </div>
+        <div class="card-inside">
+          <p class="card-kicker">chotu sa note</p>
+          <h1>happy birthday apiiii!!</h1>
+          <p class="card-signoff">with lots lots lots lots of love</p>
+        </div>
+      </div>
+      <nav class="page-nav" aria-label="Page 1 navigation">
+        <button class="page-back" type="button" disabled>go back</button>
+        <button class="page-next" type="button" data-page="2">there's one more</button>
+      </nav>
+    </section>
+
+    <section class="message-scene" id="messageScene" aria-label="A message in a bottle">
+      <div class="water" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+      <button class="bottle" id="bottle" type="button" aria-label="Open the message in the bottle">
+        <span class="bottle-neck" aria-hidden="true"><span class="cork"></span></span>
+        <span class="bottle-body" aria-hidden="true">
+          <span class="glass-shine"></span>
+          <span class="rolled-paper"></span>
+          <span class="bottle-label">open me</span>
+        </span>
+      </button>
+      <div class="message-paper" id="messagePaper" aria-hidden="true">
+        <p>dear saniyaa,</p>
+        <p>
+          how long has it been? 3 years? OMG YES! in these 3 years, i've seen you
+          happy, angry, sad, and even excited and ykw? i've seen you become better
+          after every challenge. and i pray that you keep outshining your past self
+          while reflecting on everything that you've been and what you are. AGAIN
+          ILYSM AND I'M PROUD OF YOU
+        </p>
+        <p>
+          idk what i did to desserve this. to desserve you but i, high-key, don't want
+          us to go side ways and never turn back. like we ain't built for that drama
+          so pls don't *sobs* i promise when we meet, in sha allah (high hopes), i'll bake a
+          cake for you hehe. no promise abt the frosting tho, it could be messy :)
+        </p>
+        <p>
+         ik we've been separate lately, but i hope you know that i still care for you and
+         will always be there for you. and i promise to never disappear again and leav you
+         alone in any situation. pakka promise, in sha allah.
+        </p>
+        <p class="paper-signoff">with love, zu</p>
+      </div>
+      <p class="message-hint">hmm is that a wine bottle?🤔</p>
+      <nav class="page-nav" aria-label="Page 2 navigation">
+        <button class="page-back" type="button" data-page="1">go back</button>
+        <button class="page-next" type="button" data-page="3">aur bhi?</button>
+      </nav>
+    </section>
+
+    <section class="whiteboard-scene" id="whiteboardScene" aria-label="A doodle whiteboard">
+      <div class="whiteboard-heading">
+        <p class="album-eyebrow">page 4</p>
+        <h2>doodle shoodle banao</h2>
+      </div>
+      <div class="whiteboard-tools" aria-label="Whiteboard tools">
+        <button class="tool-button active" type="button" data-tool="brush">brush pen</button>
+        <button class="tool-button" type="button" data-tool="pencil">pencil</button>
+        <button class="tool-button" type="button" data-tool="chalk">chalk</button>
+        <button class="tool-button" type="button" data-tool="soft">soft brush</button>
+        <button class="tool-button" type="button" data-tool="watercolor">watercolor</button>
+        <button class="tool-button" type="button" data-tool="smudge">smudge</button>
+        <button class="tool-button" type="button" data-tool="blur">blur</button>
+        <button class="tool-button" type="button" data-tool="fill">color bucket</button>
+        <button class="tool-button" type="button" data-tool="eraser">eraser</button>
+        <label class="color-control">color <input id="drawColor" type="color" value="#513b46" /></label>
+        <label class="size-control">size <input id="drawSize" type="range" min="2" max="120" value="12" /></label>
+        <button class="tool-button" id="clearBoard" type="button">clear</button>
+        <button class="tool-button" id="saveBoard" type="button">save drawing</button>
+        <button class="tool-button" id="copyBoardLink" type="button">copy link</button>
+      </div>
+      <div class="whiteboard-frame">
+        <canvas id="whiteboard" width="900" height="520" aria-label="Blank drawing whiteboard"></canvas>
+      </div>
+      <p class="whiteboard-status" id="whiteboardStatus" aria-live="polite">draw the cake you wanna have. i might start
+        practicing.</p>
+      <nav class="page-nav" aria-label="Page 3 navigation">
+        <button class="page-back" type="button" data-page="2">go back</button>
+        <button class="page-next" type="button" data-page="4">small photobooth</button>
+      </nav>
+    </section>
+
+    <section class="photobooth-scene" id="photoboothScene" aria-label="A small photobooth">
+      <div class="photobooth-heading">
+        <p class="album-eyebrow">page 5</p>
+        <h2>a small photobooth</h2>
+        <p>take three silly little pictures and make a strip.</p>
+      </div>
+      <div class="photobooth-layout">
+        <div class="camera-station">
+          <div class="camera-window" id="cameraWindow">
+            <video id="cameraVideo" autoplay playsinline muted aria-label="Live camera preview"></video>
+            <div class="camera-placeholder" id="cameraPlaceholder">
+              <span class="camera-star">*</span>
+              <span>camera sleeping</span>
+              <small>tap start camera to wake it up</small>
+            </div>
+            <div class="flash-overlay" id="flashOverlay" aria-hidden="true"></div>
+          </div>
+          <div class="camera-actions">
+            <button class="booth-button" id="startCamera" type="button">start camera</button>
+            <button class="booth-button shutter-button" id="takePicture" type="button" disabled>
+              take picture <span aria-hidden="true">*</span>
+            </button>
+          </div>
+          <p class="camera-status" id="cameraStatus" aria-live="polite">three frames make one tiny keepsake</p>
+        </div>
+
+        <div class="photobooth-controls">
+          <div class="control-group">
+            <span class="control-label">filter</span>
+            <div class="filter-options" role="group" aria-label="Photo filters">
+              <button class="filter-chip active" type="button" data-filter="normal">original</button>
+              <button class="filter-chip" type="button" data-filter="warm">warm</button>
+              <button class="filter-chip" type="button" data-filter="dreamy">dreamy</button>
+              <button class="filter-chip" type="button" data-filter="mono">mono</button>
+              <button class="filter-chip" type="button" data-filter="punchy">punchy</button>
+            </div>
+          </div>
+          <div class="control-group color-picker-group">
+            <label class="booth-color-control">
+              strip color <input id="stripColor" type="color" value="#fff8dc" />
+            </label>
+            <label class="booth-color-control">ink color <input id="stripInk" type="color" value="#513b46" /></label>
+          </div>
+          <label class="flash-toggle">
+            <input id="flashToggle" type="checkbox" checked />
+            <span class="toggle-track" aria-hidden="true"><span></span></span>
+            <span>flash on</span>
+          </label>
+          <div class="shot-dots" id="shotDots" aria-label="Photo strip frames">
+            <span class="shot-dot active"></span><span class="shot-dot"></span><span class="shot-dot"></span>
+          </div>
+        </div>
+
+        <div class="strip-stage">
+          <div class="photo-strip-maker" id="photoStripMaker">
+            <div class="strip-brand">a tiny day out</div>
+            <div class="strip-frames" id="stripFrames">
+              <div class="empty-frame">your first<br />little photo</div>
+              <div class="empty-frame">your second<br />little photo</div>
+              <div class="empty-frame">your third<br />little photo</div>
+            </div>
+            <div class="strip-footer" id="stripFooter">made with mischief</div>
+          </div>
+          <div class="strip-actions">
+            <button class="booth-button" id="retakeStrip" type="button">start over</button>
+            <button class="booth-button save-strip-button" id="saveStrip" type="button" disabled>save strip</button>
+          </div>
+        </div>
+      </div>
+      <nav class="page-nav" aria-label="Page 4 navigation">
+        <button class="page-back" type="button" data-page="3">go back</button>
+        <button class="page-next" type="button" disabled>the end</button>
+      </nav>
+      <canvas id="captureCanvas" width="640" height="480" hidden></canvas>
+    </section>
+  </div>
+
+  <script>
+    // Read URL params
+    const params = new URLSearchParams(window.location.search);
+    const name = params.get("name") || "hadiyaaaa";
+    let candleCount = parseInt(params.get("candles")) || 16;
+    candleCount = Math.min(Math.max(candleCount, 1), 30);
+
+    const birthdayText = document.getElementById("birthdayText");
+    birthdayText.innerHTML = `
+        <div id="mainTitle">happy birthday, ${name}!</div>
+        <div id="subTitle">
+          make a wish and blow the candles! BUT! BUT! BUT! turn your mic on first and
+          then blow in the mic of your device (trust me).
+        </div>
+        <button id="micButton" type="button">turn on microphone</button>
+      `;
+
+    const cake = document.getElementById("cake");
+
+    const colors = [
+      "green-candle",
+      "purple-candle",
+      "blue-candle",
+      "yellow-candle",
+    ];
+    const CAKE_VISUAL_WIDTH = 35;
+
+    function createCandles(count) {
+      cake.innerHTML = "";
+      const CANDLE_VISUAL_WIDTH = 2;
+      const availableWidth = CAKE_VISUAL_WIDTH;
+      const candlesPerRow = 6;
+      const rowCount = Math.ceil(count / candlesPerRow);
+      const shiftAmount = 4;
+
+      for (let i = 0; i < count; i++) {
+        const candle = document.createElement("div");
+        candle.classList.add("candle");
+        const colorClass = colors[Math.floor(Math.random() * colors.length)];
+        candle.classList.add(colorClass);
+
+        const row = Math.floor(i / candlesPerRow);
+        const col = i % candlesPerRow;
+        const totalCandlesInRow = Math.min(
+          candlesPerRow,
+          count - row * candlesPerRow
+        );
+        const rowSpacing = availableWidth / (totalCandlesInRow + 1);
+
+        const leftBase = rowSpacing * (col + 1) - CANDLE_VISUAL_WIDTH / 2 + 5;
+        const rowShift = row % 2 === 0 ? 0 : shiftAmount;
+
+        candle.style.position = "absolute";
+        candle.style.top = `${10 + row * 3}px`;
+        candle.style.left = `${leftBase - rowShift + 4}px`;
+
+        cake.appendChild(candle);
+      }
+    }
+
+    createCandles(16);
+
+    // === Microphone / Blow Detection ===
+    async function startMicDetection() {
+      try {
+        const stream = await navigator.mediaDevices.getUserMedia({
+          audio: true,
+        });
+            const audioContext = new (
+              window.AudioContext || window.webkitAudioContext
+            )();
+        await audioContext.resume();
+        const source = audioContext.createMediaStreamSource(stream);
+        const analyser = audioContext.createAnalyser();
+        analyser.fftSize = 512;
+        analyser.smoothingTimeConstant = 0.15;
+
+        source.connect(analyser);
+
+        const dataArray = new Uint8Array(analyser.fftSize);
+
+        let blown = false;
+        let loudSince = 0;
+
+        function detectBlow() {
+          analyser.getByteTimeDomainData(dataArray);
+
+          let squaredSum = 0;
+          for (const sample of dataArray) {
+            const amplitude = (sample - 128) / 128;
+            squaredSum += amplitude * amplitude;
+          }
+
+          const volume = Math.sqrt(squaredSum / dataArray.length);
+          const now = performance.now();
+          const BLOW_VOLUME_THRESHOLD = 0.12;
+          const BLOW_DURATION = 120;
+
+          if (volume > BLOW_VOLUME_THRESHOLD) {
+            loudSince ||= now;
+          } else {
+            loudSince = 0;
+          }
+
+          if (loudSince && now - loudSince >= BLOW_DURATION && !blown) {
+            blown = true;
+            blowOutCandles();
+          }
+
+          requestAnimationFrame(detectBlow);
+        }
+
+        detectBlow();
+      } catch (err) {
+        console.error("Mic access error:", err);
+        document.getElementById("subTitle").textContent =
+          "please allow microphone access, then try again.";
+      }
+    }
+
+    function blowOutCandles() {
+      const candles = document.querySelectorAll(".candle");
+      candles.forEach((candle) => {
+        const delay = Math.random() * 1000;
+        setTimeout(() => {
+          colors.forEach((color) => {
+            if (candle.classList.contains(color)) {
+              candle.classList.add("blown");
+            }
+          });
+        }, delay);
+      });
+
+      // Update subTitle after short delay
+      setTimeout(() => {
+        const subTitle = document.getElementById("subTitle");
+        subTitle.textContent = `yeyeyeye! chalo cake cut kar lo ab`;
+      }, 1200);
+
+      // Update subTitle after short delay of 5 more seconds
+      setTimeout(() => {
+        const subTitle = document.getElementById("subTitle");
+        subTitle.textContent = `and ilysm always stay safe and happy. muwah!`;
+      }, 5000);
+
+      // Let the cake disappear before the memories and card arrive.
+      setTimeout(() => {
+        const container = document.querySelector(".container");
+        container.classList.add("celebration", "page-1");
+      }, 1400);
+
+    }
+
+    document
+      .getElementById("micButton")
+      .addEventListener("click", async (event) => {
+        event.currentTarget.disabled = true;
+        event.currentTarget.textContent = "hmmm...";
+        await startMicDetection();
+      });
+
+    document.getElementById("bottle").addEventListener("click", () => {
+      document.getElementById("messageScene").classList.toggle("message-open");
+        document.getElementById("messagePaper").setAttribute(
+          "aria-hidden",
+          document
+            .getElementById("messageScene")
+            .classList.contains("message-open")
+            ? "false"
+            : "true"
+        );
+    });
+
+    function showPage(pageNumber) {
+      const container = document.querySelector(".container");
+      container.classList.remove("page-1", "page-2", "page-3", "page-4", "screen-faded");
+      container.classList.add(`page-${pageNumber}`);
+    }
+
+      document
+        .querySelectorAll(".page-nav button[data-page]")
+        .forEach((button) => {
+          button.addEventListener("click", () => showPage(button.dataset.page));
+        });
+
+    const board = document.getElementById("whiteboard");
+    const boardContext = board.getContext("2d");
+    const boardTools = document.querySelectorAll(".tool-button[data-tool]");
+    const drawColor = document.getElementById("drawColor");
+    const drawSize = document.getElementById("drawSize");
+    const whiteboardStatus = document.getElementById("whiteboardStatus");
+    let selectedTool = "brush";
+    let drawing = false;
+    let lastPoint = null;
+
+    const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
+
+    function hexToRgba(hex, alpha) {
+      const clean = hex.replace("#", "");
+      const normalized =
+        clean.length === 3
+          ? clean
+              .split("")
+              .map((char) => char + char)
+              .join("")
+          : clean;
+      const red = parseInt(normalized.slice(0, 2), 16);
+      const green = parseInt(normalized.slice(2, 4), 16);
+      const blue = parseInt(normalized.slice(4, 6), 16);
+      return `rgba(${red}, ${green}, ${blue}, ${alpha})`;
+    }
+
+    function getIntensity() {
+      return 0.55;
+    }
+
+    boardContext.fillStyle = "#fff";
+    boardContext.fillRect(0, 0, board.width, board.height);
+
+    const sharedDoodle = window.location.hash.match(/^#doodle=(.+)$/);
+    if (sharedDoodle) {
+      const sharedImage = new Image();
+      sharedImage.onload = () => {
+        boardContext.drawImage(sharedImage, 0, 0, board.width, board.height);
+        whiteboardStatus.textContent = "shared doodle loaded";
+      };
+      sharedImage.src = decodeURIComponent(sharedDoodle[1]);
+    }
+
+    function boardPoint(event) {
+      const bounds = board.getBoundingClientRect();
+      return {
+        x: clamp(
+          ((event.clientX - bounds.left) * board.width) / bounds.width,
+          0,
+          board.width
+        ),
+        y: clamp(
+          ((event.clientY - bounds.top) * board.height) / bounds.height,
+          0,
+          board.height
+        ),
+      };
+    }
+
+    function drawLine(from, to) {
+      const size = Number(drawSize.value);
+      const intensity = getIntensity();
+      const ctx = boardContext;
+      ctx.lineCap = "round";
+      ctx.lineJoin = "round";
+      ctx.shadowBlur = 0;
+      ctx.shadowColor = "transparent";
+
+      if (selectedTool === "eraser") {
+        ctx.save();
+        ctx.globalCompositeOperation = "destination-out";
+        ctx.beginPath();
+        ctx.moveTo(from.x, from.y);
+        ctx.lineTo(to.x, to.y);
+        ctx.strokeStyle = "rgba(0, 0, 0, 1)";
+        ctx.lineWidth = size * (0.7 + intensity * 1.2);
+        ctx.shadowBlur = size * (0.25 + intensity * 0.85);
+        ctx.shadowColor = "rgba(0, 0, 0, 0.45)";
+        ctx.stroke();
+        ctx.restore();
+        return;
+      }
+
+      if (selectedTool === "pencil") {
+        ctx.strokeStyle = drawColor.value;
+        ctx.lineWidth = Math.max(1.3, size * 0.28);
+        ctx.globalAlpha = 0.95;
+        ctx.beginPath();
+        ctx.moveTo(from.x, from.y);
+        ctx.lineTo(to.x, to.y);
+        ctx.stroke();
+        ctx.globalAlpha = 1;
+        return;
+      }
+
+      if (selectedTool === "brush") {
+        ctx.strokeStyle = drawColor.value;
+        ctx.lineWidth = Math.max(3.5, size * 0.95);
+        ctx.globalAlpha = 0.82;
+        ctx.shadowBlur = size * 0.55;
+        ctx.shadowColor = hexToRgba(drawColor.value, 0.35);
+        ctx.beginPath();
+        ctx.moveTo(from.x, from.y);
+        ctx.lineTo(to.x, to.y);
+        ctx.stroke();
+        ctx.globalAlpha = 1;
+        ctx.shadowBlur = 0;
+        return;
+      }
+
+      if (selectedTool === "chalk") {
+        const jitter = Math.max(2, size * 0.5);
+        for (let step = 0; step < 5; step += 1) {
+          const offsetX = (Math.random() - 0.5) * jitter;
+          const offsetY = (Math.random() - 0.5) * jitter;
+          ctx.strokeStyle = hexToRgba(drawColor.value, 0.26 + intensity * 0.26);
+          ctx.lineWidth = Math.max(1, size * (0.35 + intensity * 0.4));
+          ctx.beginPath();
+          ctx.moveTo(from.x + offsetX, from.y + offsetY);
+          ctx.lineTo(to.x + offsetX, to.y + offsetY);
+          ctx.stroke();
+        }
+        return;
+      }
+
+      if (selectedTool === "soft") {
+        ctx.strokeStyle = drawColor.value;
+        ctx.lineWidth = size * 1.9;
+        ctx.globalAlpha = 0.22;
+        ctx.shadowBlur = size * 2.4;
+        ctx.shadowColor = hexToRgba(drawColor.value, 0.55);
+        ctx.beginPath();
+        ctx.moveTo(from.x, from.y);
+        ctx.lineTo(to.x, to.y);
+        ctx.stroke();
+        ctx.globalAlpha = 1;
+        ctx.shadowBlur = 0;
+        return;
+      }
+
+      if (selectedTool === "watercolor") {
+        const repeatCount = 5;
+        for (let i = 0; i < repeatCount; i += 1) {
+          const offsetX = (Math.random() - 0.5) * size * 2.5;
+          const offsetY = (Math.random() - 0.5) * size * 2.5;
+          ctx.strokeStyle = hexToRgba(drawColor.value, 0.08 + i * 0.05);
+          ctx.lineWidth = size * (1.4 + i * 0.7);
+          ctx.shadowBlur = size * (1.6 + i * 0.8);
+          ctx.shadowColor = hexToRgba(drawColor.value, 0.32);
+          ctx.beginPath();
+          ctx.moveTo(from.x + offsetX, from.y + offsetY);
+          ctx.lineTo(to.x + offsetX, to.y + offsetY);
+          ctx.stroke();
+        }
+        ctx.shadowBlur = 0;
+        return;
+      }
+
+      ctx.strokeStyle = drawColor.value;
+      ctx.lineWidth = size;
+      ctx.globalAlpha = 0.9;
+      ctx.beginPath();
+      ctx.moveTo(from.x, from.y);
+      ctx.lineTo(to.x, to.y);
+      ctx.stroke();
+      ctx.globalAlpha = 1;
+    }
+
+    function applySmudge(point) {
+      const size = Number(drawSize.value);
+      const radius = Math.max(10, size * 1.3);
+      const minX = Math.max(0, Math.floor(point.x - radius));
+      const minY = Math.max(0, Math.floor(point.y - radius));
+      const maxX = Math.min(board.width, Math.ceil(point.x + radius));
+      const maxY = Math.min(board.height, Math.ceil(point.y + radius));
+      const region = boardContext.getImageData(
+        minX,
+        minY,
+        maxX - minX,
+        maxY - minY
+      );
+      const pixels = region.data;
+      const copy = new Uint8ClampedArray(pixels);
+
+      for (let y = 0; y < region.height; y += 1) {
+        for (let x = 0; x < region.width; x += 1) {
+          const index = (y * region.width + x) * 4;
+          if (pixels[index + 3] === 0) continue;
+
+          const dx = x + minX - point.x;
+          const dy = y + minY - point.y;
+          const distance = Math.sqrt(dx * dx + dy * dy);
+          if (distance > radius) continue;
+
+          let totalR = 0;
+          let totalG = 0;
+          let totalB = 0;
+          let totalA = 0;
+          let sampleCount = 0;
+          const sampleRadius = Math.max(2, Math.ceil(radius * 0.22));
+
+          for (let sampleY = -sampleRadius; sampleY <= sampleRadius; sampleY += 1) {
+            for (let sampleX = -sampleRadius; sampleX <= sampleRadius; sampleX += 1) {
+              const sampleXPos = x + sampleX;
+              const sampleYPos = y + sampleY;
+              if (sampleXPos < 0 || sampleXPos >= region.width || sampleYPos < 0 || sampleYPos >= region.height) continue;
+              const neighborIndex = (sampleYPos * region.width + sampleXPos) * 4;
+              if (copy[neighborIndex + 3] === 0) continue;
+              totalR += copy[neighborIndex];
+              totalG += copy[neighborIndex + 1];
+              totalB += copy[neighborIndex + 2];
+              totalA += copy[neighborIndex + 3];
+              sampleCount += 1;
+            }
+          }
+
+          if (!sampleCount) continue;
+
+          const falloff = 1 - distance / radius;
+          const smudgeStrength = 0.22 + falloff * 0.44;
+          const avgR = totalR / sampleCount;
+          const avgG = totalG / sampleCount;
+          const avgB = totalB / sampleCount;
+          const avgA = totalA / sampleCount;
+
+          pixels[index] = pixels[index] * (1 - smudgeStrength) + avgR * smudgeStrength;
+          pixels[index + 1] = pixels[index + 1] * (1 - smudgeStrength) + avgG * smudgeStrength;
+          pixels[index + 2] = pixels[index + 2] * (1 - smudgeStrength) + avgB * smudgeStrength;
+          pixels[index + 3] = Math.max(pixels[index + 3], avgA * 0.8);
+        }
+      }
+
+      boardContext.putImageData(region, minX, minY);
+    }
+
+    function applyColorlessEffect(point, mode) {
+      const size = Number(drawSize.value);
+      const intensity = getIntensity();
+      const radius = Math.max(4, size * (0.8 + intensity * 1.5));
+      const minX = Math.max(0, Math.floor(point.x - radius));
+      const minY = Math.max(0, Math.floor(point.y - radius));
+      const maxX = Math.min(board.width, Math.ceil(point.x + radius));
+      const maxY = Math.min(board.height, Math.ceil(point.y + radius));
+      const region = boardContext.getImageData(minX, minY, maxX - minX, maxY - minY);
+      const pixels = region.data;
+      const output = new Uint8ClampedArray(pixels);
+
+      for (let y = 0; y < region.height; y += 1) {
+        for (let x = 0; x < region.width; x += 1) {
+          const index = (y * region.width + x) * 4;
+          const dx = x + minX - point.x;
+          const dy = y + minY - point.y;
+          const distance = Math.sqrt(dx * dx + dy * dy);
+          if (distance > radius || pixels[index + 3] === 0) continue;
+
+          let red = 0;
+          let green = 0;
+          let blue = 0;
+          let count = 0;
+          const limit = radius * (0.9 + intensity * 0.8);
+
+          for (let sampleY = -Math.ceil(limit); sampleY <= Math.ceil(limit); sampleY += 1) {
+            for (let sampleX = -Math.ceil(limit); sampleX <= Math.ceil(limit); sampleX += 1) {
+              const sampleXPos = x + sampleX;
+              const sampleYPos = y + sampleY;
+              if (sampleXPos < 0 || sampleXPos >= region.width || sampleYPos < 0 || sampleYPos >= region.height) continue;
+              const neighborIndex = (sampleYPos * region.width + sampleXPos) * 4;
+              const neighborAlpha = pixels[neighborIndex + 3];
+              if (neighborAlpha === 0) continue;
+              const neighborDistance = Math.sqrt(sampleX * sampleX + sampleY * sampleY);
+              if (neighborDistance > limit) continue;
+              red += pixels[neighborIndex];
+              green += pixels[neighborIndex + 1];
+              blue += pixels[neighborIndex + 2];
+              count += 1;
+            }
+          }
+
+          if (!count) continue;
+          const avgRed = red / count;
+          const avgGreen = green / count;
+          const avgBlue = blue / count;
+
+          const mix =
+            mode === "blur"
+              ? 0.14 + intensity * 0.2
+              : 0.14 + intensity * 0.32;
+          output[index] = pixels[index] * (1 - mix) + avgRed * mix;
+          output[index + 1] = pixels[index + 1] * (1 - mix) + avgGreen * mix;
+          output[index + 2] = pixels[index + 2] * (1 - mix) + avgBlue * mix;
+        }
+      }
+
+      const blended = new ImageData(output, region.width, region.height);
+      boardContext.putImageData(blended, minX, minY);
+    }
+
+    function floodFill(point) {
+      const image = boardContext.getImageData(0, 0, board.width, board.height);
+      const pixels = image.data;
+      const start = (Math.floor(point.y) * board.width + Math.floor(point.x)) * 4;
+      const target = pixels.slice(start, start + 4);
+      const fill = [
+        parseInt(drawColor.value.slice(1, 3), 16),
+        parseInt(drawColor.value.slice(3, 5), 16),
+        parseInt(drawColor.value.slice(5, 7), 16),
+        255,
+      ];
+      if (target.every((value, index) => value === fill[index])) return;
+      const stack = [[Math.floor(point.x), Math.floor(point.y)]];
+      const matches = (x, y) => {
+        const offset = (y * board.width + x) * 4;
+        return (
+          pixels[offset] === target[0] &&
+          pixels[offset + 1] === target[1] &&
+          pixels[offset + 2] === target[2] &&
+          pixels[offset + 3] === target[3]
+        );
+      };
+      while (stack.length) {
+        const [x, y] = stack.pop();
+        if (x < 0 || x >= board.width || y < 0 || y >= board.height || !matches(x, y)) continue;
+        const offset = (y * board.width + x) * 4;
+        pixels.set(fill, offset);
+        stack.push([x + 1, y], [x - 1, y], [x, y + 1], [x, y - 1]);
+      }
+      boardContext.putImageData(image, 0, 0);
+    }
+
+    board.addEventListener("pointerdown", (event) => {
+      event.preventDefault();
+      const point = boardPoint(event);
+      if (selectedTool === "fill") {
+        floodFill(point);
+        return;
+      }
+      drawing = true;
+      lastPoint = point;
+      board.setPointerCapture(event.pointerId);
+
+      if (selectedTool === "smudge") {
+        applySmudge(point);
+        return;
+      }
+
+      if (selectedTool === "blur") {
+        applyColorlessEffect(point, "blur");
+        return;
+      }
+
+      drawLine(point, { x: point.x + 0.1, y: point.y + 0.1 });
+    });
+
+    board.addEventListener("pointermove", (event) => {
+      if (!drawing) return;
+      const point = boardPoint(event);
+
+      if (selectedTool === "smudge") {
+        applySmudge(point);
+        lastPoint = point;
+        return;
+      }
+
+      if (selectedTool === "blur") {
+        applyColorlessEffect(point, "blur");
+        lastPoint = point;
+        return;
+      }
+
+      drawLine(lastPoint, point);
+      lastPoint = point;
+    });
+
+      board.addEventListener("pointerup", () => {
+        drawing = false;
+        lastPoint = null;
+      });
+      board.addEventListener("pointercancel", () => {
+        drawing = false;
+        lastPoint = null;
+      });
+
+    boardTools.forEach((button) => {
+      button.addEventListener("click", () => {
+        selectedTool = button.dataset.tool;
+        boardTools.forEach((tool) => tool.classList.toggle("active", tool === button));
+        whiteboardStatus.textContent = `${button.textContent} selected`;
+      });
+    });
+
+    document.getElementById("clearBoard").addEventListener("click", () => {
+      boardContext.fillStyle = "#fff";
+      boardContext.fillRect(0, 0, board.width, board.height);
+      whiteboardStatus.textContent = "fresh page";
+    });
+
+    document.getElementById("saveBoard").addEventListener("click", () => {
+      const link = document.createElement("a");
+      link.download = "hadiyaa-doodle.png";
+      link.href = board.toDataURL("image/png");
+      link.click();
+      whiteboardStatus.textContent = "drawing saved";
+    });
+
+    document.getElementById("copyBoardLink").addEventListener("click", async () => {
+      const link = `${window.location.href.split("#")[0]}#doodle=${encodeURIComponent(board.toDataURL("image/png"))}`;
+      try {
+        await navigator.clipboard.writeText(link);
+        whiteboardStatus.textContent = "drawing link copied";
+      } catch (error) {
+        whiteboardStatus.textContent = "copy was blocked by the browser";
+      }
+    });
+
+    const cameraVideo = document.getElementById("cameraVideo");
+    const captureCanvas = document.getElementById("captureCanvas");
+    const captureContext = captureCanvas.getContext("2d");
+    const cameraPlaceholder = document.getElementById("cameraPlaceholder");
+    const cameraStatus = document.getElementById("cameraStatus");
+    const flashOverlay = document.getElementById("flashOverlay");
+    const startCameraButton = document.getElementById("startCamera");
+    const takePictureButton = document.getElementById("takePicture");
+    const saveStripButton = document.getElementById("saveStrip");
+    const stripFrames = document.getElementById("stripFrames");
+    const stripMaker = document.getElementById("photoStripMaker");
+    const stripColor = document.getElementById("stripColor");
+    const stripInk = document.getElementById("stripInk");
+    const flashToggle = document.getElementById("flashToggle");
+    const shotDots = [...document.querySelectorAll(".shot-dot")];
+    const filterButtons = [...document.querySelectorAll(".filter-chip")];
+    let cameraStream = null;
+    let selectedFilter = "normal";
+    let capturedPhotos = [];
+
+      const photoFilters = {
+      normal: "none",
+      warm: "sepia(0.28) saturate(1.35) contrast(1.05)",
+      dreamy: "brightness(1.12) saturate(0.8) blur(0.35px)",
+      mono: "grayscale(1) contrast(1.18)",
+        punchy: "saturate(1.8) contrast(1.18)",
+    };
+
+    function updateShotProgress() {
+        shotDots.forEach((dot, index) =>
+          dot.classList.toggle("active", index === capturedPhotos.length)
+        );
+      takePictureButton.disabled = !cameraStream || capturedPhotos.length >= 3;
+      saveStripButton.disabled = capturedPhotos.length !== 3;
+      if (capturedPhotos.length === 3) {
+        cameraStatus.textContent = "your tiny strip is ready to keep";
+      } else {
+        cameraStatus.textContent = `${capturedPhotos.length} of 3 frames captured`;
+      }
+    }
+
+    function renderStrip() {
+      stripMaker.style.backgroundColor = stripColor.value;
+      stripMaker.style.color = stripInk.value;
+      stripFrames.innerHTML = "";
+        const labels = [
+          "your first little photo",
+          "your second little photo",
+          "your third little photo",
+        ];
+      labels.forEach((label, index) => {
+        const frame = document.createElement("div");
+        frame.className = "strip-photo-frame";
+        if (capturedPhotos[index]) {
+          const image = document.createElement("img");
+          image.src = capturedPhotos[index].src;
+          image.alt = `Photobooth frame ${index + 1}`;
+          image.style.filter = photoFilters[capturedPhotos[index].filter] || "none";
+          frame.appendChild(image);
+        } else {
+          frame.classList.add("empty-frame");
+          frame.innerHTML = label.replace(" ", "<br />");
+        }
+        stripFrames.appendChild(frame);
+      });
+        document.getElementById("stripFooter").textContent =
+          capturedPhotos.length === 3
+            ? "made with mischief"
+            : "three frames, one tiny story";
+    }
+
+    async function startCamera() {
+      if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+        cameraStatus.textContent = "this browser cannot open a camera here";
+        return;
+      }
+      try {
+          cameraStream = await navigator.mediaDevices.getUserMedia({
+            video: { facingMode: "user" },
+            audio: false,
+          });
+        cameraVideo.srcObject = cameraStream;
+        cameraPlaceholder.hidden = true;
+        startCameraButton.textContent = "camera ready";
+        startCameraButton.disabled = true;
+        cameraStatus.textContent = "make a face, then tap the star";
+        updateShotProgress();
+      } catch (error) {
+        cameraStatus.textContent = "camera permission was skipped; try start camera again";
+      }
+    }
+
+    function takePicture() {
+      if (!cameraStream || capturedPhotos.length >= 3 || cameraVideo.readyState < 2) return;
+      const width = cameraVideo.videoWidth || 640;
+      const height = cameraVideo.videoHeight || 480;
+      captureCanvas.width = width;
+      captureCanvas.height = height;
+      captureContext.save();
+      captureContext.filter = photoFilters[selectedFilter];
+      captureContext.translate(width, 0);
+      captureContext.scale(-1, 1);
+      captureContext.drawImage(cameraVideo, 0, 0, width, height);
+      captureContext.restore();
+        capturedPhotos.push({
+          src: captureCanvas.toDataURL("image/jpeg", 0.9),
+          filter: selectedFilter,
+        });
+      renderStrip();
+      if (flashToggle.checked) {
+        flashOverlay.classList.remove("flash-now");
+        void flashOverlay.offsetWidth;
+        flashOverlay.classList.add("flash-now");
+      }
+      updateShotProgress();
+    }
+
+    function resetStrip() {
+      capturedPhotos = [];
+      renderStrip();
+      cameraStatus.textContent = cameraStream ? "make a face, then tap the star" : "three frames make one tiny keepsake";
+      updateShotProgress();
+    }
+
+    startCameraButton.addEventListener("click", startCamera);
+    takePictureButton.addEventListener("click", takePicture);
+    document.getElementById("retakeStrip").addEventListener("click", resetStrip);
+    filterButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        selectedFilter = button.dataset.filter;
+        filterButtons.forEach((filterButton) => filterButton.classList.toggle("active", filterButton === button));
+        cameraVideo.style.filter = photoFilters[selectedFilter];
+        cameraStatus.textContent = `${button.textContent} filter ready`;
+      });
+    });
+    [stripColor, stripInk].forEach((input) => input.addEventListener("input", renderStrip));
+    flashToggle.addEventListener("change", () => {
+      flashToggle.parentElement.querySelector("span:last-child").textContent = flashToggle.checked ? "flash on" : "flash off";
+    });
+    saveStripButton.addEventListener("click", () => {
+      if (capturedPhotos.length !== 3) return;
+      const padding = 28;
+      const frameWidth = 420;
+      const frameHeight = 300;
+      const output = document.createElement("canvas");
+      output.width = frameWidth + padding * 2;
+      output.height = frameHeight * 3 + padding * 2 + 86;
+      const outputContext = output.getContext("2d");
+      outputContext.fillStyle = stripColor.value;
+      outputContext.fillRect(0, 0, output.width, output.height);
+      outputContext.fillStyle = stripInk.value;
+      outputContext.textAlign = "center";
+      outputContext.font = "22px Pixelify Sans, sans-serif";
+      outputContext.fillText("a tiny day out", output.width / 2, 22);
+      capturedPhotos.forEach((photo, index) => {
+        const image = new Image();
+        image.onload = () => {
+          outputContext.save();
+          outputContext.filter = photoFilters[photo.filter];
+          outputContext.drawImage(image, padding, padding + 30 + index * frameHeight, frameWidth, frameHeight - 14);
+          outputContext.restore();
+          if (index === capturedPhotos.length - 1) {
+            outputContext.filter = "none";
+            outputContext.font = "18px Pixelify Sans, sans-serif";
+            outputContext.fillText("made with mischief", output.width / 2, output.height - 20);
+            const link = document.createElement("a");
+            link.download = "tiny-photobooth-strip.png";
+            link.href = output.toDataURL("image/png");
+            link.click();
+            cameraStatus.textContent = "strip saved to your camera roll";
+          }
+        };
+        image.src = photo.src;
+      });
+    });
+    renderStrip();
+    updateShotProgress();
+  </script>
+</body>
+
+</html>
